@@ -1,0 +1,100 @@
+.nav-items {
+  list-style: none;
+  font-size: 22px;
+  padding: 0.55rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: gray;
+  font-size: 22px;
+}
+#main-doc {
+  max-height: 100vh;
+}
+#sidebar-section {
+  width: 20%;
+  position: absolute;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#main-container {
+  position: absolute;
+  left: 25rem;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  top: 2rem;
+}
+.jshead {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.sidebar {
+  padding: 0.55rem;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.code {
+  background-color: gainsboro;
+  height: 5rem;
+  width: 70%;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.code-content {
+  display: block;
+  height: 100%;
+  font-size: 18px;
+  line-height: 2;
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+
+  #sidebar-section {
+    width: 25%;
+    position: absolute;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  #main-container {
+    position: absolute;
+    left: 13rem;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top: 2rem;
+  }
+  .nav-items {
+    list-style: none;
+    font-size: 15px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+  }
+  .sidebar {
+    padding: 0;
+  }
+}
